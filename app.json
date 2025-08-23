@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Guftaar",
+    "slug": "Guftaar",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Guftaar-logo.jpeg",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/Guftaar-logo.jpeg",
+      "resizeMode": "contain",
+      "backgroundColor": "#E5F5E4"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/Guftaar-logo.jpeg",
+        "backgroundColor": "#E5F5E4"
+      },
+      "package": "com.abc_123_a.Guftaar"
+    },
+    "plugins": [
+      "@config-plugins/react-native-webrtc"
+    ],
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ce475305-1138-4c85-ae06-d07fede13ebb"
+      }
+    }
+  }
+}
